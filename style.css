@@ -1,0 +1,112 @@
+
+body{
+    background:linear-gradient(whitesmoke,silver);
+   /* background:linear-gradient(to right,white,silver);*/
+    font-family: Arial, sans-serif;
+    /*margin: 0;
+    padding: 0;*/
+    box-sizing: border-box;
+}
+
+h2,h4{
+    color:red;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 30px;
+   overflow: hidden;
+   background-color: silver;
+   width: 100%;
+   box-sizing: border-box;
+   top:0;
+   position: fixed;
+   width:100%;
+}
+
+li{ 
+   float: right;
+}
+li a{
+    text-decoration: none;
+    background-color:red;
+    color:white;
+    border: 2px solid white;
+    border-radius:  35px 15px 35px 15px;
+    padding: 20px;
+    text-align: center;
+     
+}
+
+
+li a:active{
+   color: black;
+}
+
+li a:hover{
+    background-color: red;
+    box-shadow: 0px 8px 16px 0 white;
+    border: 2px solid white;
+    border-radius: 15px 35px 15px 35px;
+    transition:  1s;
+    text-align: center;
+    margin: 2px;
+    cursor: pointer;
+}
+img{
+   max-width: 100%;
+}
+/*.column {
+   float: left;
+   width: 33.33%;
+   padding: 15px;
+}
+.row:after {
+   content: "";
+   display: table;
+   clear: both;
+}
+@media (max-width:600px) {
+   .column {
+       width: 100%;
+   }*/
+ input,textarea{
+    width:100%;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 6px;
+ }
+ 
+ input:hover{
+    border:2px solid red;
+    border-radius: 8px;
+ }
+ 
+ textarea:hover{
+   border:2px solid red;
+   border-radius: 8px;
+}
+#Message{
+   height:200px;
+}
+ input[type=submit]{
+     background-color: red;
+     border-radius: 8px;
+    }
+ input[type=submit]:hover{
+   background-color:rgba(225, 0, 0, 0.5);
+   cursor: pointer;
+ }
+
+ footer{
+    
+    padding: 20px;
+    background-color: red;
+    color:white;
+    text-align: center;
+ }
+  footer a{
+    color:white;
+    text-decoration: none;
+  }
